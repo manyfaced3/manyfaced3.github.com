@@ -19,7 +19,9 @@ a {
   transition: .3s all ease; }
   a:hover {
     text-decoration: none; }
-
+.kor{
+  font-family: 'Noto Serif KR', serif;
+}
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
@@ -65,7 +67,7 @@ h1, h2, h3, h4, h5,
 
 .btn {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 900; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
@@ -289,10 +291,10 @@ h1, h2, h3, h4, h5,
 /* Navbar */
 .site-logo {
   position: relative;
-  font-weight: 900;
-  font-size: 1.3rem; }
+  font-weight: 500;
+  font-size: 2rem; }
   .site-logo a {
-    color: #fff; }
+    color: #210090; }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -317,11 +319,12 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: #210090;
         display: inline-block;
-        text-decoration: none !important; }
+        text-decoration: none !important;
+        font-weight: bold; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #2374f7; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -568,11 +571,11 @@ h1, h2, h3, h4, h5,
     .sticky-wrapper .site-navbar .site-menu > li {
       display: inline-block; }
       .sticky-wrapper .site-navbar .site-menu > li > a.active {
-        color: #fff;
+        color: #2374f7;
         position: relative; }
         .sticky-wrapper .site-navbar .site-menu > li > a.active:after {
           height: 2px;
-          background: #fff;
+          background: #2374f7;
           content: "";
           position: absolute;
           bottom: 0;
@@ -592,9 +595,9 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-          color: #007bff; }
+          color: #210090; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #007bff; }
+          background: #ffe561; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -610,15 +613,15 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 70%;
-    background: #007bff;
+    background: #FFF97E;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
   .intro-section h1 {
-    font-size: 3rem;
+    font-size: 3.7rem;
     font-weight: 900;
-    color: #fff; }
+    color: #210090; }
   .intro-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem;
@@ -630,14 +633,14 @@ h1, h2, h3, h4, h5,
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  transform: translateY(-40%); }
   .img-absolute img {
     max-width: 600px;
     -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
     box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4); }
     @media (max-width: 991.98px) {
       .img-absolute img {
-        max-width: 100%; } }
+        max-width: 95%; } }
 
 .site-section {
   padding: 10em 0; }
