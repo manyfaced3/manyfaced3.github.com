@@ -172,19 +172,22 @@ jQuery(document).ready(function($) {
 	        600:{
 	        	margin: 20,
 	        	nav: true,
-	          items: 2
+						items: 1,
+						autoplay:false
 	        },
 	        1000:{
-	        	margin: 30,
+						margin: 30,
 	        	stagePadding: 0,
 	        	nav: true,
-	          items: 3
+	          items: 1,
+						autoplay:true
 	        },
 	        1200:{
-	        	margin: 30,
+						margin: 30,
 	        	stagePadding: 0,
 	        	nav: true,
-	          items: 4
+	          items: 2,
+						autoplay:false
 	        }
 		    }
 			});
