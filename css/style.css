@@ -859,11 +859,91 @@ font-family: 'Raleway', sans-serif;}
     color: #000;
     font-weight: 700;
     margin-top: 1.5rem; 
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;   }
 
 .service {
   padding: 4rem;
-  background: #fffcb8; }
+  background: #FFFCB8; }
   @media (max-width: 991.98px) {
     .service {
       padding: 2rem; } }
+
+.bold{
+  color:rgb(148, 115, 52); font-weight: bold;
+}
+
+.service_icon{
+  width: 85px !important;
+}
+.skills{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;}
+
+
+.skills .skill{
+  background: #E6E6E6;
+  margin: 0.25rem 0.5rem;
+  width: 17%;
+}
+
+.skills .skill .skill_title{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.3rem;
+  background: #fffcb8;
+  color: #210090;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+.skill_title h5{
+  margin: auto;
+  font-weight: bold;
+}
+.progress-bar{font-size: 1.5rem;}
+.progress{height: 3rem;}
+@media (max-width: 796px) {
+  .skills .skill{
+    width: 43%; 
+  }
+  .skills .skill .skill_title,
+  .progress{
+    height: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .skills .skill{
+    width: 43%; 
+  }
+  .skills .skill .skill_title,
+  .progress{
+    height: 2rem;
+  }
+}
+
+
+.advantages p,
+.careers p{
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #454545;
+}
+
+.advantages .keyword,
+.careers .keyword{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: #210090;
+  font-weight: bold;
+}
+
+.advantages p{
+  font-size: 1.2rem;
+}
+.advantages .keyword{
+  font-size: 1.4rem;
+  background: rgba(255, 229, 97, 0.6);
+}
