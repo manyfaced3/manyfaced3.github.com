@@ -947,3 +947,21 @@ font-family: 'Raleway', sans-serif;}
   font-size: 1.4rem;
   background: rgba(255, 229, 97, 0.6);
 }
+
+
+
+.js-number{
+  color : rgba(112, 186, 255,0.7) !important;
+}
+.js-button{
+  background-color: rgb(176, 217, 255);
+}
+.js-button:hover{
+  background-color: rgb(149, 192, 232) !important;
+  border : 1px solid whitesmoke;
+  box-shadow: none;
+}
+.js-bold{
+  color: rgb(45, 103, 196);
+  font-weight: bold;
+}
